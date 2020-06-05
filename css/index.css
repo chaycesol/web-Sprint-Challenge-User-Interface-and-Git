@@ -46,7 +46,13 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+hr{
+    border-top: 1px dashed black;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    padding: 5px;
+}
 * {
     box-sizing: border-box;
 }
@@ -196,4 +202,11 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* Specific to About Page */
+.about-us .strategy{
+    display: flex;
+    flex-flow: row wrap;
+    width: 50%;
 }
