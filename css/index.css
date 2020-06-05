@@ -133,6 +133,12 @@ header img {
     display: flex;
     align-items: center;
     justify-content: center;
+
+}
+/* Stretch Goal #2: Add CSS Animations - This makes the squares transform on hover*/
+.middle-content .boxes .box:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
 }
 #box-1{
     background-color: teal;
@@ -196,4 +202,9 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+footer nav a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
 
