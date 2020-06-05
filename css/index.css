@@ -70,7 +70,31 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+header .navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
 
+}
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+header nav a{
+    padding: 40px;
+    color: #000;
+    text-decoration: none;
+}
+header nav a:hover{
+    text-decoration: underline;
+}
+header img {
+    margin-bottom: 25px;
+    max-width: 100%;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
