@@ -1,0 +1,45 @@
+@import 'index.css'; 
+.about-us .about-txt{
+    padding: 10px;
+    border-bottom: 1px dashed black;
+}
+.about-us .strategy{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-end;
+    justify-content: space-around;
+    width: 100%;
+}
+.strategy .specialty{
+    padding: 20px;
+    margin: 5px;
+    width: 48%;
+    border-bottom: 1px dashed black;
+}
+.strategy .specialty img{
+    width: 100%;
+    padding: 10px;
+}
+.strategy .specialty h2{
+    margin-top: 10px;
+}
+.strategy .specialty p{
+    margin-bottom: 20px;
+}
+.strategy .specialty a{
+    color: #000;
+    padding: 5px;
+    margin: 50px 0;
+    height: 20px; 
+    border: 2px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.strategy .specialty a:hover{
+    text-decoration: underline;
+}
+.bottom-section{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}

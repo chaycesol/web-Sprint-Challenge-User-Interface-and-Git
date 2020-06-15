@@ -33,14 +33,25 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+    - Semantic HTML provides meaning to your content - especially for accessibility concerns such as screen readers for the blind, etc
+    - Makes it more readable by Search Engines, and helps keep the code for developers more readable, organized, and easier to maintain
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+    - block elements start on a new line while inline elements do not need to take up a new line in the dom
+    - inline elements cannot hold block elements inside of them while block elements can hold inline elements in them
 
 3. What are the 4 areas of the box model?
+    - margin, border, padding, content 
 
-4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+4. While using flexbox, what axis does the following property work on: ```align-items: center```? 
+    - the cross access if you are using flex-dirction: row, and main axis if you are using flex-direction: column
 
 5. Explain why git is valuable to a team of developers.
+    - Git is valuable to a team of developers because:
+        - Feature Branches - allows people in teams to work on separate isolated environments while being able to manage merges and changes in their main code base
+        - Pull Requests - allows devs to merge their branches into another's (or master) repository - this also helps in reviewing other team member's codes and testing before merging and causing more bugs - makes it easier to collaborate with a number of people on the same features/product
+        - Commits - allow you to jump back and forward to certain snapshots of code to help troubleshoot bugs or other issues
+        
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

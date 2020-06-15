@@ -46,7 +46,6 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 * {
     box-sizing: border-box;
 }
@@ -70,7 +69,31 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+header .navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
 
+}
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+header nav a{
+    padding: 40px;
+    color: #000;
+    text-decoration: none;
+}
+header nav a:hover{
+    text-decoration: underline;
+}
+header img {
+    margin-bottom: 25px;
+    max-width: 100%;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -110,8 +133,43 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-}
 
+}
+/* Stretch Goal #2: Add CSS Animations - This makes the squares transform on hover*/
+.middle-content .boxes .box:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+#box-1{
+    background-color: teal;
+}
+#box-2{
+    background-color: gold;
+}
+#box-3{
+    background-color: cadetblue;
+}
+#box-4{
+    background-color: coral;
+}
+#box-5{
+    background-color: crimson;
+}
+#box-6{
+    background-color: forestgreen;
+}
+#box-7{
+    background-color: darkorchid;
+}
+#box-8{
+    background-color: hotpink;
+}
+#box-9{
+    background-color: indigo;
+}
+#box-10{
+    background-color: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -144,3 +202,9 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+footer nav a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+
